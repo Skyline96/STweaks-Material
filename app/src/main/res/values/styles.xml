@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textViewStyle">@style/AppTheme.TextViewTextStyle</item>
+        <item name="checkboxStyle">@style/AppTheme.CheckBoxTextStyle</item>
+        <item name="buttonStyle">@style/AppTheme.ButtonTextStyle</item>
+    </style>
+
+    <style name="AppTheme.TextViewTextStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="AppTheme.ButtonTextStyle" parent="Widget.AppCompat.Button">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="AppTheme.CheckBoxTextStyle" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    //TabLayout Style
+
+    <style name="AppTheme.TabLayoutOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+</resources>

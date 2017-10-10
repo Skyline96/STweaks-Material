@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">STweaks</string>
+    <string name="bottom_accept">Apply</string>
+    <string name="bottom_decline">Discard</string>
+    <string name="startmenu_nokernelsupport">Sorry, no kernel support!</string>
+    <string name="developer_info">Developed by Gokhan Moral</string>
+    <string name="startmenu_no_root">No root access, or timeout!</string>
+    <string name="menu_reset">Reset Settings</string>
+    <string name="menu_extras">Extras</string>
+</resources>
